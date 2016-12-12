@@ -6,6 +6,17 @@ $("document").ready(function() {
 		$( ".about-me" ).slideToggle("slow");
 	});
 
+    $( "article" ).hover(function(){
+        $( "h3", this ).slideToggle();
+        $( "p", this ).slideToggle();
+    });
+
+    $( "#drop-down-nav" ).hover(function() {
+      $( ".object" ).animate({"width":"5.5em"}, 1000);
+    });
+
+   
+
 });
 
 $(function() {

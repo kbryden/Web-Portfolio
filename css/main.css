@@ -171,6 +171,10 @@ a {
   cursor: pointer;
 }
 
+.bounce {
+  margin-top: 2em;
+}
+
 .about-text {
   width: 50%;
   min-width: 25em;
@@ -235,12 +239,19 @@ a {
   margin: 1em 6em 0 0;
 }
 
-.main-nav li:hover ul {
+.main-nav li:hover ul{
   display: block;
 }
 
 .main-nav li li {
   float: none;
+}
+
+.object {
+  border: .005em solid #d6a722;
+  width: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Article Styling */
@@ -282,20 +293,26 @@ article img {
   margin: 0;
   overflow: hidden;
   z-index: 100;
+  color: #ffffff;
 }
 
 article h3 {
-  font-size: 150%;
-  color: #ffffff;
+  font-size: 140%;
   text-transform: uppercase;
 }
 
 article:hover {
-  background-color: hsla(0, 0%, 0%, .2);
+  background-color: hsla(0, 0%, 0%, .3);
 }
 
 article:hover h3 {
     color: #fccd47;
+}
+
+article p {
+  display: none;
+  font-size: 120%;
+  padding: 1em;
 }
 
 
