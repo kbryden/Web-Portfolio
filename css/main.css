@@ -332,6 +332,11 @@ footer i {
   padding: .15em;
 }
 
+footer i:hover {
+    color: #d6a722;
+    text-decoration: none;
+   }
+
 .social {
   float: right;
   padding: 1em 2em 0 1em;
